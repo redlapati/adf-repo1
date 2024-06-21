@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeOnPrem",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "to connect to local machine"
+	}
+}

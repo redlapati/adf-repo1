@@ -1,0 +1,22 @@
+{
+	"name": "SqlServerOnPrem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "OnPrem SQL server",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "EDLAPATI",
+			"database": "70-461",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "raviadmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzM2FmNjAwZi0yMDM3LTRmMDYtOGY5Yi1lMmRmM2IwNWU0OTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeOnPrem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

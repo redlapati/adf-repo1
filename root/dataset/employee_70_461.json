@@ -1,0 +1,25 @@
+{
+	"name": "employee_70_461",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlob70_461",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee_21_06_2024.csv",
+				"folderPath": "employee",
+				"container": "employee-70-461"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

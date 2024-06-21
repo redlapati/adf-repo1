@@ -1,0 +1,9 @@
+{
+	"name": "snowflakedf99",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ce3587d-1d27-4ae3-8a9f-f5bcae468e9d",
+		"tenantId": "a9675b1d-3910-4c6b-a39d-e1df5f4552f9"
+	}
+}

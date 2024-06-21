@@ -1,0 +1,17 @@
+{
+	"name": "SqlEmployeeTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerOnPrem",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tblEmployee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
